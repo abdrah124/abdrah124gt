@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="pokedex.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="img/pokepedia.png" class="pokepedia" />
+      </header>
+      <div class="align">
+        <input type="search" placeholder="Search..." class="search" value="" />
+        <button type="button" class="button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <table class="pokelist">
+      <thead>
+        <tr>
+          <th>Sprites</th>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="pagin">
+      <button class="previous"><</button>
+      <button class="next">></button>
+    </div>
+
+    <div class="modal" id="modalDetail">
+      <div id="banner">
+        <h5>Pikachu</h5>
+        <img
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+          alt=""
+          id="banner"
+        />
+      </div>
+
+      <div class="types">
+        <h5>Element</h5>
+        <img src="img/electric.png" alt="" id="element" width="90px" />
+      </div>
+      <div class="ev">
+        <h5>Base Stats</h5>
+        <span>Health: </span><span>Attack : </span><span>Defence : </span
+        ><span>Special Atk : </span><span>Special Def : </span>
+        <span>Speed : </span>
+      </div>
+      <div class="evol">
+        <h4>Evolution</h4>
+        <a href="">Evo 1</a>
+        <a href="">Evo 2</a>
+        <a href="">Evo 3</a>
+      </div>
+      <a href="#"><button class="close" type="button">Close</button></a>
+    </div>
+    <script src="modalUpdate.js"></script>
+    <script type="module" src="index.js"></script>
+    <script src="pokefilter.js"></script>
+  </body>
+</html>
