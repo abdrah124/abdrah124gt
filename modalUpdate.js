@@ -26,7 +26,7 @@ function getDataPage(url) {
 
 function getElementPage(a) {
   return `<div id="banner">
-    <h5>${toUp(a.name)}</h5>
+    <h5>${toUp(a.name)} #${a.id}</h5>
     <img
       src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
         a.id
@@ -58,7 +58,6 @@ function getElementPage(a) {
     <span>Speed : ${a.stats[5].base_stat}</span>
     </div>
     <div class="evol">
-    <span>${toUp(a.name)} ID: ${a.id}</span>
     <h4>Evolution</h4>
     </div>
     <a href="#"><button class="close" type="button">Close</button></a>`;

@@ -180,7 +180,7 @@ thead tr th {
   padding-top: 35px;
 }
 .types img {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
 }
 #banner h5,
 .types h5 {
@@ -273,11 +273,11 @@ span {
   font-family: "balooregular";
   font-weight: normal;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .evol a {
   color: wheat;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .close {
   color: white;
