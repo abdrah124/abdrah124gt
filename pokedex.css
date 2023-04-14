@@ -313,7 +313,10 @@ span {
 #modalDetail {
   font-size: 1rem;
 }
-
+.paginvalue {
+  color: white;
+  font-size: 0.8rem;
+}
 td {
   text-align: center;
 }
