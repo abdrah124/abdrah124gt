@@ -10,7 +10,7 @@ buttonSrc.addEventListener("click", async function () {
     ) {
       throw new Error("Can't found the Pokemon");
     }
-    const UI = await fetch(`https://pokeapi.co/api/v2/pokemon/${seVal.value}`)
+    const UI = await fetch(`https://pokeapi.co/api/v2/pokemon/${seVal.value.toLowerCase()}`)
       .then((a) => {
         if (!a.ok) {
           throw new Error("Can't found the Pokemon");
