@@ -58,8 +58,8 @@ function getElementPage(a) {
     <span>Speed : ${a.stats[5].base_stat}</span>
     </div>
     <div class="evol">
+    <span>${toUp(a.name)} ID: ${a.id}</span>
     <h4>Evolution</h4>
-
     </div>
     <a href="#"><button class="close" type="button">Close</button></a>`;
 }

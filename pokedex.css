@@ -273,7 +273,7 @@ span {
   font-family: "balooregular";
   font-weight: normal;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .evol a {
   color: wheat;
@@ -292,6 +292,12 @@ span {
   border-radius: 8px;
   transition: 0.2s;
   margin-bottom: 20px;
+}
+.evol span {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-bottom: 10px;
 }
 .modal a {
   width: fit-content;
