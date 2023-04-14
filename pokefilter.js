@@ -5,6 +5,9 @@ const table = document.querySelector(".pokelist tbody");
 const url = `https://pokeapi.co/api/v2/pokemon?limit=900&offset=0`;
 buttonSrc.addEventListener("click", async function () {
   try {
+    if (seVal.value === "" || seVal.value === undefined) {
+      throw new Error("Insert Text Here!");
+    }
     const data = await getSearchData(url);
     const filterData = await filterSearchData(data, seVal.value);
     if (filterData.length === 0) {
