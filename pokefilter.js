@@ -4,10 +4,23 @@ const table = document.querySelector(".pokelist tbody");
 
 const url = `https://pokeapi.co/api/v2/pokemon?limit=900&offset=0`;
 buttonSrc.addEventListener("click", async function () {
-  const data = await getSearchData(url);
-  const filterData = await filterSearchData(data, seVal.value);
-  const UI = await createUI(filterData).join("");
-  table.innerHTML = UI;
+  try {
+    const data = await getSearchData(url);
+    const filterData = await filterSearchData(data, seVal.value);
+    if (filterData.length === 0) {
+      throw new Error("Can't found the Pokemon");
+    }
+    const UI = await createUI(filterData).join("");
+    table.innerHTML = UI;
+    setTimeout(() => {
+      seVal.value = "";
+    }, 300);
+  } catch (err) {
+    seVal.value = err.message;
+    setTimeout(() => {
+      seVal.value = "";
+    }, 1000);
+  }
 });
 
 function getSearchData(url) {
