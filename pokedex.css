@@ -308,7 +308,7 @@ span {
 #modalDetail:target {
   opacity: 1;
   width: 75%;
-  top: 14%;
+  top: 10%;
 }
 #modalDetail {
   font-size: 1rem;
