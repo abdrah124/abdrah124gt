@@ -163,7 +163,7 @@ thead tr th {
 .modal {
   position: fixed;
   right: 12.5%;
-  top: -140%;
+  top: -140vh;
   padding: 15px 15px 0 15px;
   width: 75%;
   box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.8);
@@ -314,7 +314,7 @@ span {
 }
 
 #modalDetail:target {
-  top: 15%;
+  top: 15vh;
 }
 #modalDetail {
   font-size: 1rem;
@@ -378,6 +378,6 @@ td {
     width: 35%;
   }
   #modalDetail:target {
-    top: 8%;
+    top: 15vh;
   }
 }
