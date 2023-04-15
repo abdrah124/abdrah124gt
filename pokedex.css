@@ -93,6 +93,10 @@ td:active {
   border-radius: 1.5em;
   transition: 0.2s;
 }
+.search::placeholder {
+ font-family: "balooregular";
+  font-weight: normal;
+}
 .button {
   display: block;
   width: 40px;
