@@ -375,6 +375,7 @@ td {
     width: 40%;
   }
   .modal {
+    right: 25%;
     width: 10px;
   }
   #modalDetail:target {
