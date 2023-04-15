@@ -297,7 +297,7 @@ span {
 }
 
 #modalDetail:target {
-  top: 12vh;
+  top: 23vh;
 }
 #modalDetail {
   font-size: 1rem;
@@ -363,6 +363,6 @@ footer {
     width: 35%;
   }
   #modalDetail:target {
-    top: 15vh;
+    top: 23vh;
   }
 }
