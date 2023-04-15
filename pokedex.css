@@ -163,7 +163,7 @@ thead tr th {
 .modal {
   position: fixed;
   right: 12.5%;
-  top: -100%;
+  top: -140%;
   padding: 15px 15px 0 15px;
   width: 75%;
   box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.8);
@@ -183,7 +183,7 @@ thead tr th {
   padding-top: 35px;
 }
 .types img {
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 1px rgba(0, 0, 0);
 }
 #banner h5,
 .types h5 {
