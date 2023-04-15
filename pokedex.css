@@ -94,7 +94,7 @@ td:active {
   transition: 0.2s;
 }
 .search::placeholder {
- font-family: "balooregular";
+  font-family: "pt_sans_captionregular";
   font-weight: normal;
 }
 .button {
@@ -280,7 +280,7 @@ span {
 }
 .evol a {
   color: wheat;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .close {
   color: white;
@@ -372,11 +372,11 @@ td {
 /* responsive */
 @media (min-width: 800px) {
   .pokelist {
-    width: 40%;
+    width: 37%;
   }
   .modal {
-    right: 25%;
-    width: 10px;
+    right: 32.5%;
+    width: 35%;
   }
   #modalDetail:target {
     top: 8%;
