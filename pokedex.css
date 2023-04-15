@@ -164,7 +164,6 @@ thead tr th {
   position: fixed;
   right: 12.5%;
   top: -100%;
-  opacity: 0;
   padding: 15px 15px 0 15px;
   width: 75%;
   box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.8);
@@ -316,8 +315,6 @@ span {
 }
 
 #modalDetail:target {
-  opacity: 1;
-  width: 75%;
   top: 15%;
 }
 #modalDetail {
@@ -381,8 +378,6 @@ td {
     width: 10px;
   }
   #modalDetail:target {
-    opacity: 1;
-    width: 75%;
     top: 8%;
   }
 }
