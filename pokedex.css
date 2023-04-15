@@ -142,23 +142,6 @@ thead tr th {
   font-family: "pt_sans_captionbold";
   font-weight: lighter;
 }
-.next,
-.previous {
-  padding: 0.6em 1em 0.6em 1em;
-  border-radius: 50%;
-  margin: 20px auto;
-  border: none;
-  display: block;
-  margin: 15px;
-}
-.pagin {
-  width: fit-content;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
 
 .modal {
   position: fixed;
@@ -318,10 +301,6 @@ span {
 }
 #modalDetail {
   font-size: 1rem;
-}
-.paginvalue {
-  color: white;
-  font-size: 0.8rem;
 }
 td {
   text-align: center;
