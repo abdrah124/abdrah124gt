@@ -1,2 +1,2 @@
-# pokedex
-PokeApi Pokedex
+# Pokedex
+Simple Pokedex
