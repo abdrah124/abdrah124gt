@@ -79,7 +79,7 @@ td {
   background-color: white;
   transition: 0.2s;
 }
-td:hover {
+td:nth-child(3):hover {
   background-color: rgba(255, 255, 255, 0.6);
 }
 td:active {
