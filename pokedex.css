@@ -341,7 +341,13 @@ td {
     opacity: 1;
   }
 }
-
+footer {
+  background-color: linen;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 0.6rem;
+}
 /* font */
 
 @font-face {
