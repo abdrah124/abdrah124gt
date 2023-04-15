@@ -23,7 +23,7 @@ function createUI(pokemonData) {
            e.id
          }</td> <td><a href="#modalDetail"><span class="pokelist po" data-name="${
         e.name
-      }" data-id="${e.id}">${toUp(e.name)}</span></a></td>
+      }" data-id="0${e.id}">${toUp(e.name)}</span></a></td>
           <td>
           <img src="img/${e.types[0].type.name}.png" alt="${
         e.types[0].type.name
