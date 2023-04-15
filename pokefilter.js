@@ -16,7 +16,7 @@ function getDataSearch() {
   const dataFilter = Array.from(dataName)
     .map((e) => e)
     .filter((e) =>
-      e.children[2].children[0].children[0].dataset.name.startsWith(seVal.value)
+      e.children[2].children[0].children[0].dataset.name.startsWith(seVal.value.toUpperCase())
     )
     .sort((x, y) => {
       if (
